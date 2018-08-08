@@ -12,3 +12,5 @@ RUN npm install @vue/eslint-config-standard@^3.0.0-rc.11
 RUN npm install stylus@^0.54.5
 RUN npm install stylus-loader@^3.0.2
 RUN npm install vue-template-compiler@^2.5.17
+
+ENV PATH=/node_modules/.bin:$PATH
