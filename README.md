@@ -1,6 +1,6 @@
 # About this Repo
 
-This is the Git repo of the official Docker image for [amixsi/centos](https://hub.docker.com/r/amixsi/node/).
+This is the Git repo of the official Docker image for [amixsi/node](https://hub.docker.com/r/amixsi/node/).
 See the Hub page for the full readme on how to use the Docker image and for information regarding contributing and issues.
 
 Common build usage:
