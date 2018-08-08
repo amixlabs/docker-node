@@ -6,7 +6,6 @@ before_script:
 
 script:
 - docker run --rm -it amixsi/node:vue-cli-3 npm version
-- docker run --rm -it amixsi/node:vue-cli-3 npm ls --depth=0
 
 after_success:
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
